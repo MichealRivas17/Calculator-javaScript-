@@ -1,5 +1,36 @@
-button {
-     width: 100px;
-     height: 100px;
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #c2f4ff;
+}
+
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.textview {
+    width: 210px;
+    margin: 2px;
+    height: 40px;
+    background-color: #ffb3d1;
+    font-size: 20px;
+    border: none;
+}
+
+.button {
+     width: 50px;
+     height: 50px;
      border: none;
+     background-color: #ffb3d1;
+     font-size: 20px;
+     cursor: pointer;
+    
+}
+
+.textview:focus, .button:focus {
+    outline: none;
 }
