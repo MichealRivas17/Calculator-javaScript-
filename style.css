@@ -1,11 +1,14 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #c2f4ff;
 }
 
 
-.container {
+.container { 
+    border-radius: 10px;
+    border: 5px solid;
+    border-color: #769294;
+    background-color: #769294;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -14,18 +17,18 @@ body {
 
 .textview {
     width: 210px;
-    margin: 2px;
+    margin: 3px;
     height: 40px;
-    background-color: #ffb3d1;
+    border-radius: 7px;
     font-size: 20px;
     border: none;
 }
 
 .button {
+    border-radius: 7px;
      width: 50px;
      height: 50px;
      border: none;
-     background-color: #ffb3d1;
      font-size: 20px;
      cursor: pointer;
     
